@@ -75,10 +75,10 @@ module.exports = {
   clientRootMixin: path.resolve(__dirname, 'mixin.js')
 }
 
-function getGuideSidebar (gruopA, groupB) {
+function getGuideSidebar (groupA, groupB) {
   return [
     {
-      title: gruopA,
+      title: groupA,
       collapsable: false,
       children: [
         '',
@@ -103,10 +103,10 @@ function getGuideSidebar (gruopA, groupB) {
   ]
 }
 
-function getPluginSidebar (gruopA, introductionA) {
+function getPluginSidebar (groupA, introductionA) {
   return [
     {
-      title: gruopA,
+      title: groupA,
       collapsable: false,
       children: [
         ['', introductionA],
@@ -121,10 +121,10 @@ function getPluginSidebar (gruopA, introductionA) {
   ]
 }
 
-function getThemeSidebar (gruopA, introductionA) {
+function getThemeSidebar (groupA, introductionA) {
   return [
     {
-      title: gruopA,
+      title: groupA,
       collapsable: false,
       children: [
         ['', introductionA],
